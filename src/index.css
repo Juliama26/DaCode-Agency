@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply font-decode bg-background text-text;
+}
+
+.img-NoOrnament {
+  background-image: url("./assets/ornament.png");
+}
+.figcaption-footer p {
+  @apply text-sm text-text/50;
+}
+.img-ornament {
+  background-image: url("./assets/group.png");
+}
