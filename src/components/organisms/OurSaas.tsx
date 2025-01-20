@@ -1,4 +1,3 @@
-import React from "react";
 import CardSaas from "../molecules/CardSaas";
 
 export default function OurSaas() {
